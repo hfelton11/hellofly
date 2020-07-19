@@ -1,0 +1,13 @@
+# hellofly
+
+this Dockerfile is minimal and uses the flyio-preset-program...
+thus, you need to goto fly.io and get the flyctl program for yourself...
+
+once you have flyctl - then just run: flyctl init
+thus youll get a fly.toml (with default preselect name)...
+
+my local-account-version is NOT in this .git-ignore file, but
+you will probably want to put it in there so that people wont
+do not deploy their-version on top of your-version...
+
+
